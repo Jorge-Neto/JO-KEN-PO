@@ -1,0 +1,30 @@
+#principal {
+    border: 1px solid red;
+}
+
+#placar {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador, #computador {
+    flex-grow: 1;
+}
+
+#jogador{
+    background-color: red;
+}
+
+#versus {
+    background-color: orange;
+}
+
+#computador {
+    background-color: aqua;
+}
+
+#mensagem {
+    border: 1px solid green;
+}
