@@ -4,8 +4,6 @@
     cursor: default;
 }
 
-#principal {}
-
 #titulo {
     text-align: center;
     color: #192a56;
@@ -68,7 +66,7 @@
     opacity: .2;
 }
 
-#jogador #jogador-escolha a:hover {
+#jogador #jogador-escolha a:hover, #jogador #jogador-escolha a.selecionado, #computador #computador-escolha a.selecionado {
     opacity: 1;
 }
 
